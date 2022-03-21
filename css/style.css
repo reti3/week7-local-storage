@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif; 
+}
+
+.container {
+    height: 300px; 
+    width: 300px;
+    border: 1px solid black; 
+    border-radius: 6px; 
+    margin: 10rem auto; 
+    text-align: center;
+    background: linear-gradient(hsla(240, 58%, 85%, 0.249), rgba(230, 36, 36, 0.112)),
+    url('../images/cinema.jpg'); 
+    background-size: cover; 
+    background-position: center ;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: bisque;
+    background-color:  rgb(123, 94, 94);
+}
+
+.container h3 {
+    margin: 2rem;
+    color: bisque;
+    text-transform: capitalize;
+}
+
+.container p {
+    color: bisque;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
